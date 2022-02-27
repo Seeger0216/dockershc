@@ -1,0 +1,25 @@
+{
+    "name": "my-down",
+    "description": "download everything",
+    "keywords": ["download everything"],
+    "env": {
+		"HEROKU_APP_NAME": {
+			"description": "填写\"App name\""
+		},
+		"ARIA2C_SECRET": {
+			"description": "后台密码",
+			"value": "password"
+		},
+		"RCLONE_CONFIG": {
+			"description": "rclone配置",
+			"required": false
+		},
+		"RCLONE_DESTINATION": {
+			"description": "OneDrive上传路径，如：/update",
+			"required": false
+		}
+    },
+    "website": "https://github.com/Seeger0216/kinto666",
+    "repository": "https://github.com/Seeger0216/kinto666",
+    "stack": "container"
+}
